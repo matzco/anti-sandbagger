@@ -1,0 +1,16 @@
+{
+    "name": "Grade Hider for The Crag",
+    "description": "Hides Climbing Grades on The Crag",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons" : {
+        "48" : "carabiner_2985557.png.48x48.png"
+    },
+    "content_scripts": [
+        {
+          "matches": ["https://www.thecrag.com/*"],
+          "js": ["hider.js"]
+        }
+      ],
+      "permissions": ["activeTab"]
+  }
