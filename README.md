@@ -1,4 +1,4 @@
-# anti-sandbag
+# anti-sandbagger
 Climbing grade hider for thecrag. forget about 'only climbing V2', if it looks doable or fun, try it! 
 
 You will occasionally need to know a grade, for which it is recommended to disable the extension for private/incognito browsing, and open The Crag in a private/incognito tab 
