@@ -13,6 +13,14 @@ function ticked() {
     }
 } ticked()
 
+//Disable grade hiding for climber page
+function climber_page() {
+  const pattern = /^(?:https?:\/\/)?(?:www\.)?thecrag\.com\/climber\//i;
+  const currentUrl = window.location.href;
+  climb_known = pattern.test(currentUrl);
+} climber_page()
+
+
 //New/unknown climb
 if (!climb_known) {
     
